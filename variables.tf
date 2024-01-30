@@ -42,11 +42,6 @@ variable "extra_tags" {
   description = "Additional tags (e.g. map(`BusinessUnit`,`XYZ`)."
 }
 
-variable "managedby" {
-  type        = string
-  default     = ""
-  description = "slovink"
-}
 
 variable "enabled" {
   type        = bool
