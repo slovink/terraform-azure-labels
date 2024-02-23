@@ -12,11 +12,12 @@
 <p align="center">
 
 <a href="https://www.terraform.io">
-  <img src="https://img.shields.io/badge/Terraform-v1.1.7-green" alt="Terraform">
+  <img src="https://img.shields.io/badge/Terraform-v1.7.4-green" alt="Terraform">
 </a>
-<a href="LICENSE.md">
+<a href="https://github.com/slovink/terraform-azure-labels/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/License-APACHE-blue.svg" alt="Licence">
-</a>
+  </a>
+
 
 
 
@@ -27,7 +28,7 @@
 
 This module has a few dependencies:
 
-- [Terraform 1.x.x](https://learn.hashicorp.com/terraform/getting-started/install.html)
+- [Terraform 1.7.4](https://learn.hashicorp.com/terraform/getting-started/install.html)
 - [Go](https://golang.org/doc/install)
 
 
@@ -65,6 +66,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 
 ## Feedback
-If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/slovink/terraform-azure-labels/issues), or feel free to drop us an email at [devops@slovink.com](mailto:devops@slovink.com).
+If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/slovink/terraform-azure-labels/issues), or feel free to drop us an email at [contact@slovink.com](contact@slovink.com).
 
 If you have found it worth your time, go ahead and give us a ★ on [our GitHub](https://github.com/slovink/terraform-azure-labels)!
