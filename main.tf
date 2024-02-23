@@ -23,7 +23,7 @@ locals {
   repository    = var.enabled == true ? lower(format("%v", var.repository)) : ""
   business_unit = var.enabled == true ? lower(format("%v", var.business_unit)) : ""
   attributes    = var.enabled == true ? lower(format("%v", join(var.delimiter, compact(var.attributes)))) : ""
-  managedby     = var.managedby
+  #  managedby     = var.managedby
 
   tags_context = {
     # For Azure we need `Name` to be disambiguated sine it has a special meaning

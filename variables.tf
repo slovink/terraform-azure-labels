@@ -17,11 +17,11 @@ variable "repository" {
   default     = ""
   description = "Terraform current module repo"
 }
-variable "managedby" {
-  type        = string
-  default     = "contact@slovink.com"
-  description = "ManagedBy, eg 'slovink'."
-}
+#variable "managedby" {
+#  type        = string
+#  default     = "contact@slovink.com"
+#  description = "ManagedBy, eg 'slovink'."
+#}
 
 variable "business_unit" {
   type        = string
