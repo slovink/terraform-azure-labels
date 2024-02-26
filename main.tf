@@ -25,6 +25,8 @@ locals {
   attributes    = var.enabled == true ? lower(format("%v", join(var.delimiter, compact(var.attributes)))) : ""
   #  managedby     = var.managedby
 
+
+
   tags_context = {
     # For Azure we need `Name` to be disambiguated sine it has a special meaning
     name          = local.id
