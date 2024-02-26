@@ -48,7 +48,7 @@ Here is an example of how you can use this module in your inventory structure:
 
   ```hcl
 module "labels" {
-  source = "git@github.com:slovink/terraform-azure-labels.git?ref=1.0.0"
+  source        = "git@github.com:slovink/terraform-azure-labels.git?ref=1.0.0"
   name          = "labels"
   environment   = "test"
   label_order   = ["name", "environment"]
